@@ -1,3 +1,13 @@
+:root {
+  --primary-color: #a7d2fa;
+  --secondary-color: #2a2fa8;
+  --tertiary-color: #032254;
+  --accent-color1: #960759;
+  --accent-color2: (216, 99, 31, 0.4);
+}
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +17,8 @@
 body {
    /*background-color: #a7d2fa;*/
   background: linear-gradient( #a7d2fa, #2a2fa8, #032254) fixed;
-  font-family: 'Times New Roman', Times, Arial,serif;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -31,15 +42,15 @@ header img {
  /*position: fixed;*/
 }
 
+/*
 header h1 {
   margin: 20px;
   font-size: 40px;
   color: #2a2fa8;
   text-shadow: 0 0 5px rgba(3, 34, 84,.3);
-
   flex: 0;
   padding: 0;
-}
+}*/
 
 header a {
 color:#032254;
@@ -63,11 +74,17 @@ header nav ul li a {
   padding: 10px, 18px;
   margin: 10px;
   font-size: 1.6vw;
+  text-shadow: 0 0 10px rgba(150, 7, 88, 0.4);
 }
 
 
 .logo {
   width:35%;
+ 
+}
+.logo img {
+  box-shadow:  0 0 15px rgba(150, 7, 88, 0.4);
+  border-radius: 50%;
 }
 
 /*
@@ -90,11 +107,22 @@ header nav ul li a {
  } */
 
 
-.hero h2 {
+
+ .hero  h2 {
+   width: 100%;
+   text-align: center;
+   font-size: 3vw;
+   font-size: 5vh;
+   color :#032254;
+ }
+
+
+.ppp h3 {
   color:#83a9e6;
   font-size: 44px;
-
 }
+
+
 
 .dot {
   height: 100px;
