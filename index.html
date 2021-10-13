@@ -3,38 +3,33 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio MellieDee</title>
-    <link rel="icon" type"image/png" href="./assets/images/favicon-16x16.png">
+    <link rel="icon" type"image/png" href="./assets/images/favicon-16x16.png" />
     <!---for iPad --->
-    <link rel="apple-touch-icon-precomposed" href="./apple-touch-icon-precomposed.png">
-
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="apple-touch-icon-precomposed" href="./apple-touch-icon-precomposed.png"> -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-
-  <!--   HEADER & NAV Start   -->
+    <!--HEADER & NAV Start   -->
   <header>
-    <!--div class="background-img"></div>;-->
-    <div id="logo-home" class="logo"> 
-      <img src="./assets/images/logoMD2-500-trans.png" alt="M D Squared Logo" />
-    </div>
-    
-    <!--<div class="nav-h1">-->
-    <!--<h1>Mellie Dee Designs</h1>-->
+    <img src="./assets/images/logoMD2-500-trans.png" alt="M D Squared Logo" class="logo"/>
+     <!-- <h1>Mellie Dee Designs</h1> -->
     <nav>
       <ul>
-        
         <li>
           <a href="#what-i-do">What I Do</a>
         </li>
-       
+        <li>
+            <a href="#feature-project">Feature Project</a>
+        </li>
         <li>
           <a href="#web-projects">Web Projects</a>
         </li>
-        <li>
-          <a href="#other-talents">Other Talents</a>
-        </li>
+        <!--<li>
+          <a href="#other-work">Other Work</a>
+        </li>-->
         <li>
           <a href="#about">About</a>
         </li>
@@ -43,7 +38,6 @@
         </li>
       </ul>
     </nav>
-    <!--</div>-->
   </header>
 <!--   HEADER & NAV End-->
 
@@ -58,149 +52,190 @@
 <section/>
 <!--   HERO Ends   -->
 
+<!--   WHAT I DO Starts   -->
+  <section id="what-i-do" class="intro primary-border" target="_blank">
+    <div class="flex-row">
+      <h3 class="section-title">People<span class="dot"></span>Pets<span class="dot"></span>Planet</h3>
+    </div class="flex-row">
+    <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, praesentium dolore odit neque repellendus quia, minima cum excepturi temporibus explicabo inventore deserunt placeat esse! Explicabo ipsum voluptas quaerat iste a.
+    </P>
+ <!--<span class="dot"></span>   place holder for design element to be worked on-->
+  </section>
 
-<!--   PPP and What I do Section Starts-->
+<!--FEATURE Starts-->
+<section id="feature-project" class="intro secondary-border" target="_blank">
+  <div class="flex-row">
+    <h3 class="section-title">Feature Project</h3>
+  </div>
+ 
 
-<!--   FEATURE PROJECT Starts   -->
-  <main id="what-i-do" class="opener"> 
-    <section id="feature-project" class="feature">
-      <!--div class="feature-text">
-        <h3>Featured Web Project:</h3>
-        <h4>Run Buddy</h4>
-        <p>
-        Social app desired for finding running partners.
-        </br>Languages: HTML, CSS
-        </p>
-      </div>-->
-      <a href="https://melliedee.github.io/run-buddy/" target="_blank"> 
-      <img src="./assets/images/runBuddyImg.jpg"
-      alt="Run Buddy app for finding running partners built with HTML and CSS"/>
-      </a>  
-    </section>
+  <div class="feature-card">
+    <article class="feature">
 
+      <!--link to feature starts-->
+      <a href="https://melliedee.github.io/run-buddy/" target="_blank">
+        <img src="assets/images/sampleRunBuddyImg.jpg" alt="Run Buddy home page." />
+      </a>
+      <!--link to feature ends-->
 
-    <!--div class="flex-row">-->
-    <section id="What-i-do" class="ppp">
-      <h3 class="ppp-title">   People   <span class="dot"></span>   Pets  <span class="dot"></span>   Planet   </h3>
-      <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, praesentium dolore odit neque repellendus quia, minima cum excepturi temporibus explicabo inventore deserunt placeat esse! Explicabo ipsum voluptas quaerat iste a.
-      </P>
-       <!--<span class="dot"></span>-->
-    </section>
-  </main>
+      <p><span>Purpose:</span> To develope a responsive website with hero form for purpose of matching running partners.<br/>
+      <span>Languages used:</span> HTML and CSS  
+      </p>
+    </article>
+  </div>
+ <!--<span class="dot"></span>   place holder for design element to be worked on-->
+</section>
 
 
 <!--   MORE WEB PROJECTS Starts   -->
-  <section id="web-projects" class="more-web-projects">
-    <!-- <div class="flex-row-for-header">
-    <h4>samole haeder</h4>
-    </div> -->
+  <!--more web projects header starts-->
+  <section id="web-projects" class="more-web primary-border" target="_blank">
+    <div class="flex-row">
+      <h3 class="section-title">More Web Projects
+      </h3>
+    </div>
+  <!--more web projects header ends-->
 
-    <div class="web-projects" target="_blank">
-      <article class="web-project">
-      <!-- <a href=" URL to W2" target="_blank">
-        <img src="path to W2pic.jpg" alt="W2 description"/>
-      </a> -->
-        <div class="project-description">
-         <h5 class="project-name">Web Sample 2</h5>
-          <p>Purpose: gegergsgsergagaegagrargrgaeraljfoahjoen</p>
-          <p>Languages: HTML and css   
+  <!--more web projects cards sta-->
+    <div class="web-cards">
+      <article class="web-card">
+
+        <!--link to card 1 starts-->
+      <a href="  https://melliedee.github.io/horiSEOn/" target="_blank">
+      <img src="assets/images/sampleHoriseonImg.jpg" alt="Horiseon home page"/>
+      </a>
+       <!--link to card 1 ends-->
+
+       <div class="project-description">
+         <h4 class="project-name">HoriSEOn</h4>
+          <p><span>Purpose:</span>To refactor code to concolidate and add semantic HTML.<br/>
+          <span>Languages</span>: HTML and CSS   
           </p>
         </div>  
       </article>
 
-      <article class="web-project">
+      <article class="web-card">
         <!--
-      <a href="URL to W3" target="_blank">
-        <img src="path to img.jpg" alt="desc of W3"/>
+      <a href="URL to WP2" target="_blank">
+        <img src="path to WP2 img.jpg" alt="desc of W3"/>
       </a>-->
         <div class="project-description">
-         <h5 class="project-name">Web Sample 3</h5>
-          <p>Purpose: aljfoaserghsrhshshhrhhjoen</p>
-          <p>Languages: HTML and css
+         <h4 class="project-name">Web Sample 3</h4>
+         <p><span>Purpose:</span>To make o lovely website for a client.<br/>
+          <span>Languages</span>: HTML and CSS   
           </p>
         </div>
       </article>
   
-
-      <article class="web-project">
-        <!-- <a href="URL to W3" target="_blank">
-          <img src="path to img.jpg" alt="desc of W4"/>
-        </a> -->
+      <article class="web-card">
+        <!--
+      <a href="URL to WP2" target="_blank">
+        <img src="path to WP2 img.jpg" alt="desc of W3"/>
+      </a>-->
         <div class="project-description">
-          <h5 class="project-name">Web Sample 3</h5>
-          <p>Purpose: aljfoaserghsrhshshhrhhjoen</p>
-          <p>Languages: HTML and css
+         <h4 class="project-name">Web Sample 3</h4>
+         <p><span>Purpose:</span>To make o lovely website for a client.<br/>
+          <span>Languages</span>: HTML and CSS   
           </p>
         </div>
       </article>
-    </div>
+    </section>
+<!--   MORE WEB PROJECTS Ends  
+
+
+ <PLACEHOLDER CODE FOR FURTURE DEVELOPEMNT 
+ <section id="other-work" class="other-work">
+
   </section>
-<!--   MORE WEB PROJECTS Ends   -->
+ OTHER WORK Starts   
 
-<!--   OTHER TALENTS Starts   -->
-<!--   OTHER TALENTS Ends   -->
+ OTHER TALENTS Ends 
 
-<!--   ABOUT Starts   -->
-<!--   ABOUT Ends   -->
-
-<!--   SOCIAL Starts-->
+SOCIAL Start
 <div class="right-social">
   <ul class="social-links">
-  <!--   LinkedIn  -->
+  LinkedIn 
     <li>
       <a href="url to LI profile" target="_blank">
         <img src="path to icon" alt=" --LinkedIn-- icon." />
       </a>
     </li>
 
-  <!--   GithUb   -->
+  GithUb  
     <li class="social-link">
       <a href="url to github profile" targt="_blank">
         <img src="path to icon" alt="github icon." />
       </a>
     </li>
 
-  <!--  Instagram   -->
+  Instagram   
     <li class="social=link" targt="_blank">
       <a href="url to instagram">
         <img src="path to insta.jpg" alt="Instagram icon" />
     </li>
   </ul>
 </div>
-<!--   SOCIAL Ends   -->
+SOCIAL Ends   -->
   
+
+<!--  PLACEHOLDER CODE FOR FURTURE DEVELOPEMNT ENDS-->
+
+
+<!--   ABOUT Starts   -->
+
+<section id="about" class="about-me secondary-border" target="_blank">
+  <div class="flex-row">
+    <h3 class="section-title">And little bit about me...</h3>
+  </div>
+
+  <div class="about-card">
+    <article class="about-text">
+
+      <p>A long long time ago in a galaxy far away....I developed flavors in labs, donned hairnets in manufacturing plants, and styled food for cameras.  With over twenty years of work experience, I confidently say I understand the importance of collaboration, accountability, and adapting to change. To me, there is always more to learn in life – hence the "Intermediates" on the skills section of the application!
+      </p>
+    </article>
+  </div>
+ <!--<span class="dot"></span>   place holder for design element to be worked on-->
+</section>
+<!--   ABOUT Ends   -->
+
 
 <!--  LETS CHAT Starts-->
   <section id="contact" class="contact">
 
     <!--   My CONTACT Starts-->
-    <div>1 is my contact info</div>
+    <div class="contact-info">
+      <div>
+      <address>
+        Sacramento, Ca<br/>
+        916-596-0496<br/>
+        <a href="mailto:ReachMe@MelanlieDubberley.com">ReachMe@MelanieDubberley.com</a>
+      </address>
+
+      <h3>Love to chat!</h3>
+      <p>Love to speak with you about how I'll help bring your designs to life. Or if you prefer, to have a discussion about what silly thing your pet did today. In anycase, feel free to reach out. i'm here! </p>
+      </div>
     <!--   MY CONTACT Ends-->
 
+      <div class="contact-form"
+        <h3>Reach Me</h3>
+        <form>
+          <label for="contact-name">Your Name</label>
+          <input type="text" id="contact-name" placeholder="Your Name" />   
+          
+          <label for="contact-message">Message</label>
+          <textarea id="contact-message" placeholder="Message"></textarea>
 
-    <div>2 is cta</div>
-
-
-    <div>3 is contact form</div>
-
-
-  </section>
-<!--  LETS CHAT Ends-->
-
-<!--CONTACT FORM Starts-->
-<!--   CONTACT FORM Ends-->
-
- <!--   CONTACT Ends   -->
+          <button type="submit">Send</button>
+        </form>
+      </div>
 
 
 <!-- FOOTER Starts   -->
 <footer>
-     <h5>Another MD<sup>2</sup>design!</h5>
+     <h4>another MD<sup>2</sup>design</h4>
      <p>&copy; 2021 Melanie Dubberley & Mellie Dee Designs</p>
-    </div> 
 </footer>
 <!--   FOOTER Ends   -->
-
-
-</body>
+  </body>
 </html>
