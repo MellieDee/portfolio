@@ -77,12 +77,13 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(150, 7, 88, 0.4);
 }
 
+/*
 main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-}
+}*/
 
 .logo {
   width:35%;
@@ -101,9 +102,12 @@ main {
   width: 65%;
 }*/
 
+/*
 .flex-row {
   display: flex;
-}
+}*/
+
+
 
  .hero  h2 {
    width: 100%;
@@ -113,22 +117,29 @@ main {
    color :#032254;
    padding-top: 120px;
    padding-bottom: 200px;
+   border-bottom-color: white;
  }
 
-.opener {
+
+ main  {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 auto;
+  width: 100%
 }
+
 
 .feature {
   width: 65%;
-  flex: 1;
-
+  margin: 20px;
+  background-color: #a7d2fa;
 }
 
 .feature img {
-  text-align: center;
-}
+  width: 100%;
+  opacity: 0.5;
+} 
 
 .ppp {
   background-color: #2a2fa8;
@@ -139,7 +150,7 @@ main {
   flex: 1;
 }
 
-.ppp h3 {
+.ppp-title {
   color:#83a9e6;
   font-size: 44px;
 }
@@ -148,11 +159,11 @@ main {
   margin: 0%;
 }
 
-/* .dot
-  height: 100px;
-  width: 100px;
+.dot {
+  height: 10px;
+  width: 10px;
   background-color: #2a2fa8;
   border-radius: 50%;
   display: inline-block;
-}*/
+}
 
