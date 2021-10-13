@@ -6,8 +6,6 @@
   --accent-color2: (216, 99, 31, 0.4);
 }
 
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,7 +14,7 @@
 
 body {
    /*background-color: #a7d2fa;*/
-  background: linear-gradient( #a7d2fa, #2a2fa8, #032254) fixed;
+  background: linear-gradient( #a7d2fa, #032254) fixed;
   /*font-family: Arial, Helvetica, sans-serif;*/
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -77,13 +75,14 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(150, 7, 88, 0.4);
 }
 
-/*
-main {
+main  {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-}*/
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%
+}
+
 
 .logo {
   width:35%;
@@ -94,51 +93,31 @@ main {
   border-radius: 50%;
 }
 
-/*
-.nav-h1 {
-  /*display: flex;
-  flex-wrap: wrap;
-  justify-content: right;
-  width: 65%;
-}*/
-
-/*
-.flex-row {
-  display: flex;
-}*/
-
-
 
  .hero  h2 {
    width: 100%;
    text-align: center;
-   font-size: 3vw;
-   font-size: 5vh;
+   font-size: 5vw;
+   font-size: 8vh;
    color :#032254;
    padding-top: 120px;
    padding-bottom: 200px;
    border-bottom-color: white;
  }
 
-
- main  {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 100%
-}
-
-
+ 
 .feature {
-  width: 65%;
-  margin: 20px;
+  width: 55%;
+  margin: 0 20px;
   background-color: #a7d2fa;
+  /* border-radius: 5% / 50%; */
 }
 
 .feature img {
   width: 100%;
   opacity: 0.5;
+  height: 400px;
+  /* border-radius: 5% / 50%; */
 } 
 
 .ppp {
@@ -146,23 +125,60 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 35%;
+  width: 45%;
+  margin: 0 20px;
   flex: 1;
+  height: 400px;
+  /* border-radius: 5% / 50%; */
 }
 
-.ppp-title {
-  color:#83a9e6;
-  font-size: 44px;
+.ppp h3 {
+  color:#a7d2f6;
+  font-size: 3.5vh;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .ppp p {
-  margin: 0%;
+  margin: 0% 20px;
+  line-height: 1.5;
+  text-align: center; 
 }
+
+.web-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto; 
+  width: 100%;
+  height: 400px;
+}
+
+.web-project {
+  background-color: #2a2fa8;
+  margin: 20px;
+  color: #a7d2f6;
+  text-align: center;
+  flex: 1;
+}
+
+.project-description h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.project-description p {
+  margin: 0% 20px;
+  /* font-size: 2.25vh; */
+  line-height: 1.5;
+  text-align: center; 
+}
+
 
 .dot {
   height: 10px;
   width: 10px;
-  background-color: #2a2fa8;
+  background-color: #a7d2fa;
   border-radius: 50%;
   display: inline-block;
 }
