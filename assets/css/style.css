@@ -6,7 +6,7 @@
 
 body {
   /*background-color: #a7d2fa;*/
-  background-image: linear-gradient( #a7d2fa, #2a2fa8, #032254) fixed;
+  background: linear-gradient( #a7d2fa, #2a2fa8, #032254) fixed;
 }
 
 
