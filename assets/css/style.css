@@ -30,7 +30,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  /*z-index: 999;*/
+  z-index: 999;
 }
 
 header img {
@@ -77,6 +77,12 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(150, 7, 88, 0.4);
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
 
 .logo {
   width:35%;
@@ -95,18 +101,9 @@ header nav ul li a {
   width: 65%;
 }*/
 
-
-
-
-
-/*.hero {
+.flex-row {
   display: flex;
-  justify-content: center;
-  /*background-position: 80%;
-  width: 100%;
- } */
-
-
+}
 
  .hero  h2 {
    width: 100%;
@@ -114,21 +111,48 @@ header nav ul li a {
    font-size: 3vw;
    font-size: 5vh;
    color :#032254;
+   padding-top: 120px;
+   padding-bottom: 200px;
  }
 
+.opener {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature {
+  width: 65%;
+  flex: 1;
+
+}
+
+.feature img {
+  text-align: center;
+}
+
+.ppp {
+  background-color: #2a2fa8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 35%;
+  flex: 1;
+}
 
 .ppp h3 {
   color:#83a9e6;
   font-size: 44px;
 }
 
+.ppp p {
+  margin: 0%;
+}
 
-
-.dot {
+/* .dot
   height: 100px;
   width: 100px;
   background-color: #2a2fa8;
   border-radius: 50%;
   display: inline-block;
-}
+}*/
 
