@@ -192,10 +192,16 @@ margin: 20px 0;
   /* padding: 20px; */
 }
 
+.web-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
 .web-card {
 margin: 20px;
 background-color: var(--primary-color);
-flex:1;
+flex: 1;
 }
 
 .web-card img {
