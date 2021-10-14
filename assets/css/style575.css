@@ -79,18 +79,18 @@ footer {
 .flex-row {
   display: flex;
 }
-
+/* 
 .section-title {
-  /* font-size:30px */
+  /* font-size:30px
   color:#a7d2f6;
   font-size: 3.2vh;
   margin: 20px 20px 5px;
   padding: 0;
-}
+}*/
 
 .project-name {
   font-size: 18px;
-}
+} 
 
 .primary-border {
   border-left: 10px solid rgba(216, 99, 31, 1.0)
@@ -129,7 +129,23 @@ margin: 20px 0;
 }
 
 
-/*   INTRO STYLE Starts   */
+.three-kid-box {
+  display: flex;
+  width: 100%;
+ border: 5px solid red;
+ padding: 20px;
+ margin: 30px;
+}
+
+.three-kid-box address,  .three-kid-box p, .three-kid-box form {
+  height: 200px;
+  padding: 2 rem;
+  flex: 1;
+  width: 33%;
+  flex-shrink: 0;
+  
+ 
+/*   INTRO STYLE Starts  
 .intro {
   display: flex;
   justify-content: space-between;
@@ -137,8 +153,8 @@ margin: 20px 0;
   width: 90%;
   margin: 0 auto;
   padding: 20px;
-  /* height: 200px; */
-}
+height: 200px; 
+ }
 
 .intro p, .about-text p {
   margin: 40px 20px 20px;
@@ -147,5 +163,5 @@ margin: 20px 0;
   text-align: left;
   color: #a7d2fa;
   padding: 0;
-
+} */ 
 }

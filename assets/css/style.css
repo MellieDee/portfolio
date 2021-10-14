@@ -14,10 +14,11 @@
 }
 
 body {
-  color: #a7d2fa;
+  color: #2a2fa8;
   background: linear-gradient( #a7d2fa, #a7d2fa, #1c468a) fixed;
   /*font-family: Arial, Helvetica, sans-serif;*/
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 header {
@@ -127,7 +128,7 @@ main  {
 /*   SECTION STYLES Start   */
 .hero {
 display: flex;
-width: 100%;
+min-width: 100%;
 justify-content: center;
 flex-wrap: wrap;
 margin: 0 0 60px;
@@ -148,17 +149,17 @@ color: #a7d2fa;
 
 /*   INTRO STYLE Starts   */
 
-.ppp {
+.ppp, .four-kid-box {
   /* display: flex;
   justify-content: space-between;
   flex-wrap: wrap; */
   width: 90%;
-  margin: 40px  auto;
+  margin: 30px  auto;
   padding: 100px auto;
   /* height: 200px; */
 } */
 
-.ppp h3 {
+.ppp h3, .four-kid-box h3 {
   font-size: 30px;
   padding: 10px 20px 0 20px;
   margin: 0;
@@ -268,18 +269,23 @@ flex: 1;
   justify-content: flex-end;
   flex-wrap: wrap;
   width: 60%;
-  margin: 0 auto;
 }
 
 .about-me p {
-text-align: right;
+text-align: center;
 }
 
-.three-kid-box {
-display: grid   inline-grid;
-justify-content: space-between;
-flex-wrap: wrap;
 
+.four-kid-box img  {
+  border: 2px solid red;
+  max-width: 50%;
+  margin: 0;
+  padding: 20px 40px 20px 0;
+}
+
+.reach-me p {
+  border: 2px solid black;
+  margin: 0 auto;
 }
 
 .reach-me {
@@ -291,12 +297,11 @@ flex-wrap: wrap;
 }
  .reach-me address {
   border: 2px solid black;
+  /* Margin: 0 auto; */
 
 } 
 
-.reach-me p {
-  border: 2px solid black;
-}
+
 
 .reach-me  form {
   border: 2px solid black;
@@ -330,20 +335,13 @@ flex-wrap: wrap;
     padding: 20px 0 40px;
     margin: 10px;
   }
-/* 
-  .section-title {
-    color:#a7d2f6;
-    font-size: 3.2vh;
-    margin: 20px 20px 5px;
-    padding: 0;
-  } */
-  .ppp h3 {
+
+  .ppp h3, {
     font-size: 30px;
     padding: 10px 20px 0 20px;
     margin: 0;
     color:#2a2fa8;
   }
-
 
   .ppp-why {
     display: flex;
@@ -353,17 +351,58 @@ flex-wrap: wrap;
     margin: 0;
   } 
 
-  .ppp-why h4 {
+  .ppp-why h4, .four-kid-box h3 {
     font-size: 18px;
     padding: -20px 20px 20px 20px;
     margin: 0;
   }
 
-  .ppp-why p {
-    font-size: 14px;
-    padding: 10px 20px 0 20px;
+  .ppp-why p, .four-kid-box p {
+    font-size: 18px;
+    padding: 10px 20px 0 0;
     margin: 0;
+    line-height: 1.1em;
+    width: 100%;
     color:#2a2fa8;
   }
+
+.four-kid-box {
+  /* display: block; */
+  width: 100%;
+  border: 5px solid red;
+  padding: 10px;
+  /* margin: 0; */
+}
+
+.four-kid-box img  {
+  border: 2px solid red;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* 
+.four-kid-box p {
+  height: 250px;
+  width: 100%;
+  margin: 0;
+  padding-top: 30px;
+  font-size: 22px;
+  line-height: 1.2em;
+} */
+
+  .four-kid-box address {
+    height: 250px;
+    width: 100%;
+    margin: 0;
+    padding-top: 30px;
+    font-size: 22px;
+    line-height: 1.2em;
+  }  
+
+
+
+  .four-kid-box form 
+
+
 
 }
