@@ -226,7 +226,7 @@ flex: 1;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  width: 90%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -258,5 +258,4 @@ flex-wrap: wrap;
 
 .reach-me  form {
   border: 2px solid black;
-
 }
