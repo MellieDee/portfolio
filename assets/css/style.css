@@ -275,38 +275,66 @@ flex: 1;
 text-align: center;
 }
 
+.four-kid-box {
+  /* height: 900px; */
+  display: flex;
+  flex: 0 100%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
 
-.four-kid-box img  {
+
+.four-kid-box img {
   border: 2px solid red;
   max-width: 50%;
   margin: 0;
   padding: 20px 40px 20px 0;
 }
 
-.reach-me p {
+.four-kid-box p {
   border: 2px solid black;
   margin: 0 auto;
+  order: 1;
 }
 
-.reach-me {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 90%;
-  margin: 0 auto;
-}
- .reach-me address {
+ .four-kid-box address {
   border: 2px solid black;
-  /* Margin: 0 auto; */
-
+  font-style: normal;
+  order 2;
 } 
 
-
-
-.reach-me  form {
+.four-kid-box  form {
   border: 2px solid black;
+  /* height: 400px; */
+  display: block;
+  padding: 0;
+  margin: 0;
+  order: 3;
 }
 
+.four-kid-box form label{
+  padding: 30px 5px;
+  margin: 20px auto;
+}
+
+.four-kid-box form input,  .four-kid-box form textarea {
+  width: 100%;
+  padding: 20px 20px  20px 0;
+}
+
+.four-kid-box form textarea {
+  min-height: 50px;
+  padding: 10px 15px;
+}
+.four-kid-box form button {
+  margin: 20px auto;
+  width: 100%;
+  min-height: 30px;
+  
+
+}
 @media screen and (max-width: 575px) {
   header {
     padding: 0;
@@ -358,12 +386,14 @@ text-align: center;
   }
 
   .ppp-why p, .four-kid-box p {
-    font-size: 18px;
-    padding: 10px 20px 0 0;
+    height: 200px;
+    font-size: 20px;
+    padding: 10px 20px 20px 0;
     margin: 0;
     line-height: 1.1em;
     width: 100%;
     color:#2a2fa8;
+    text-justify: left;
   }
 
 .four-kid-box {
@@ -380,29 +410,29 @@ text-align: center;
   margin: 0;
   padding: 0;
 }
-/* 
-.four-kid-box p {
-  height: 250px;
-  width: 100%;
-  margin: 0;
-  padding-top: 30px;
-  font-size: 22px;
-  line-height: 1.2em;
-} */
 
   .four-kid-box address {
-    height: 250px;
+    height: 150px;
     width: 100%;
     margin: 0;
     padding-top: 30px;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.2em;
+ 
   }  
 
+  .four-kid-box address a {
+    font-size: 18px;
+    color: #2a2fa8;
+  }
 
-
-  .four-kid-box form 
-
-
-
+  .four-kid-box form  {
+    height: 275px;
+    width: 100%;
+    margin: 0;
+    /* padding-top: 30px; */
+    padding: 10px 0 20px 0;
+    font-size: 20px;
+    line-height: 1.2em;
+  }
 }
