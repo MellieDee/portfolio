@@ -19,10 +19,17 @@
 </head>
 
 <body>
-  <!--HEADER & NAV Start   -->
-  <header>
-    <img src="./assets/images/logoMD2-500-trans.png" alt="M D Squared Logo" class="logo" />
-    <!-- <h1>Mellie Dee Designs</h1> -->
+    <!--HEADER & NAV Start   -->
+    <header>
+      <div class="md2-logo-round">
+      <img src="./assets/images/logoMD2-500-trans.png" alt="M D Squared Logo" class="logo" />
+    </div>
+
+    <div class="md2-logo-name">
+      <div>
+      <img src="./assets/images/logoMellieDeeDesigns-500x80.png" alt="written logo for Mellie Dee Designs" class="logo">
+    </div>
+
     <nav>
       <ul>
         <li>
@@ -45,73 +52,71 @@
         </li>
       </ul>
     </nav>
-  </header>
-  <!--   HEADER & NAV End-->
+    </div>
+    </header>
+    <!--   HEADER & NAV End-->
 
 
   <!--   HERO Starts   -->
-  <section class="hero">
-    <!--<div class="tag-line">-->
-    <div>
-      <h2>Saving our world.
-        </br> One website at at time.</h2>
-    </div>
-  </section>
-  <!--   HERO Ends   -->
+    <section class="hero">
+      <!--<div class="tag-line">-->
+      <div>
+       <h1>Saving our world.
+        </br> One website at at time.</h1>
+      </div>
+    </section>
+    <!--   HERO Ends   -->
 
-  <!--   WHAT I DO Starts   -->
-  <section id="what-i-do" class="ppp primary-border" target="_blank">
-    <div class="flex-row">
+
+    <!--   WHAT I DO PPP Starts   -->
+    <section id="what-i-do" class="ppp left-align" target="_blank">
+      <div class="flex-row">
+        <h2 class="section-title-left">I code for P<sup>3</sup</h2>
+      </div>
+
+      <div class="ppp-why">
+       <h3>People<span class="dot"></span>Pets<span class="dot"></span>Planet
+        </h3>
+
+        <p> I believe in making the planet a better place for people and pets. Increasingly, websites and mobile apps are how we build community and get things done. I am your partner in your  development process. I bring your designs to life.  Coding to increase your clicks, coding to increase your sales, and coding so you can focus on your next task at hand. Together we save the world. One website at a time.
+        </p>
+     </div>
+    </section>
+    <!---   WHAT I DO PPP Ends   -->
+
+
+
+    <!--   FEATURE Starts   -->
+    <section id="feature-project" class="feature-project right-align" target="_blank">
       <!-- <div class="flex-row"> -->
-      <h3 class="section-title">I code for P<sup>3</sup </h3>
-    </div>
+       <h3 class="section-title-right">Feature Project</h3>
+      </div>
 
-    <div class="ppp-why">
-      <h4>People<span class="dot"></span>Pets<span class="dot"></span>Planet
-      </h4>
+      <div class="feature-cards">
+        <article class="feature">
+          <h3>Run Buddy</h3>
 
-      <p>I beleive in making the world a better place through coding. Websites and mobile apps are increasingly how we
-        build community and get things done. I am your partner. Coding to increase your clicks, coding to increase your
-        sales, and coding to help your business whether you serve People, Pets or the Planet. I bring your designs to
-        life. Together we save the world. One website at a time.
-      </p>
-    </div>
-  </section>
+          <!--   LINK to feature starts-->
 
-  <!--<span class="dot"></span>   place holder for design element to be worked on-->
+          <a href="https://melliedee.github.io/run-buddy/" target="_blank">
+          <img src="assets/images/sampleRunBuddyImg.jpg" alt="Run Buddy home page." /></a>
+          <!--   LINK to feature ends-->
 
-  <!--FEATURE Starts-->
-  <section id="feature-project" class="intro secondary-border" target="_blank">
-    <div class="flex-row">
-      <h3 class="section-title">Feature Project</h3>
-    </div>
-
-
-    <div class="feature-card">
-      <article class="feature">
-
-        <!--link to feature starts-->
-        <a href="https://melliedee.github.io/run-buddy/" target="_blank">
-          <img src="assets/images/sampleRunBuddyImg.jpg" alt="Run Buddy home page." />
-        </a>
-        <!--link to feature ends-->
-
-        <p><span>Purpose:</span> To develope a responsive website with hero form for purpose of matching running
+          <p><span>Purpose:</span> To develope a responsive website with hero form for purpose of matching running
           partners.<br />
           <span>Languages used:</span> HTML and CSS
-        </p>
-      </article>
-    </div>
-    <!--<span class="dot"></span>   place holder for design element to be worked on-->
-  </section>
+          </p>
+        </article>
+      </div>
+    </section>
+<!--   FEATURE Ends   -->
 
-
-  <!--   MORE WEB PROJECTS Starts   -->
+<!--   MORE WEB PROJECTS Starts   -->
   <!--more web projects header starts-->
-  <section id="web-projects" class="more-web primary-border" target="_blank">
+  <section id="web-projects" class="more-web left-align" target="_blank">
     <div class="flex-row">
-      <h3 class="section-title">More Web Projects
-      </h3>
+      <h2 class="web-section-title">More Web Projects
+      </h2>
     </div>
     <!--more web projects header ends-->
 
@@ -120,13 +125,13 @@
       <article class="web-card">
 
         <!--link to card 1 starts-->
-        <a href="  https://melliedee.github.io/horiSEOn/" target="_blank">
+        <a href="https://melliedee.github.io/horiSEOn/" target="_blank">
           <img src="assets/images/sampleHoriseonImg.jpg" alt="Horiseon home page" />
         </a>
         <!--link to card 1 ends-->
 
         <div class="project-description">
-          <h4 class="project-name">HoriSEOn</h4>
+          <h3 class="project-name">HoriSEOn</h3>
           <p><span>Purpose:</span>To refactor code to concolidate and add semantic HTML.<br />
             <span>Languages</span>: HTML and CSS
           </p>
@@ -134,13 +139,26 @@
       </article>
 
       <article class="web-card">
-        <!--
-      <a href="URL to WP2" target="_blank">
-        <img src="path to WP2 img.jpg" alt="desc of W3"/>
-      </a>-->
+        <!--Placeholder for next Web Project and URL
+      <a href="URL" target="_blank">   -->
+        <img src="./assets/images/indexFoodStylingHallowImg.jpg" alt="Foodstyling homepage"/>
+      <!-- </a> -->
         <div class="project-description">
-          <h4 class="project-name">Web Sample 3</h4>
-          <p><span>Purpose:</span>To make o lovely website for a client.<br />
+          <h3 class="project-name">Food Styling</h3>
+          <p><span>Purpose:</span>(PLACEHOLDER) To develop site for client.<br />
+            <span>Languages</span>: HTML and CSS
+          </p>
+        </div>
+      </article>
+
+      <article class="web-card">
+        <!--Placeholder for next Web Project and URL
+      <a href="URL" target="_blank">   -->
+        <img src="./assets/images/indexArtDevilCookiesHImg.jpg" alt="Art homepage"/>
+      </a>
+        <div class="project-description">
+          <h3 class="project-name">Art</h3>
+          <p><span>Purpose:</span>(PLACEHOLDER) To develop portfolio site for client.<br />
             <span>Languages</span>: HTML and CSS
           </p>
         </div>
@@ -148,72 +166,36 @@
 
       <article class="web-card">
         <!--
-      <a href="URL to WP2" target="_blank">
-        <img src="path to WP2 img.jpg" alt="desc of W3"/>
-      </a>-->
+      <a href="URL to WP2" target="_blank">-->
+        <img src="./assets/images/indexPetsImg.jpg" alt="Damien petting a dog in the livingroom"/>
+      </a>
         <div class="project-description">
-          <h4 class="project-name">Web Sample 3</h4>
-          <p><span>Purpose:</span>To make o lovely website for a client.<br />
+          <h3 class="project-name">Pets</h3>
+          <p><span>Purpose:</span>(PLACEHOLDER) To develop website for a client.<br/>
             <span>Languages</span>: HTML and CSS
           </p>
         </div>
       </article>
-  </section>
-  <!--   MORE WEB PROJECTS Ends  
-
-
- <PLACEHOLDER CODE FOR FURTURE DEVELOPEMNT 
- <section id="other-work" class="other-work">
 
   </section>
- OTHER WORK Starts   
+  <!--   MORE WEB PROJECTS Ends
 
- OTHER TALENTS Ends 
-
-SOCIAL Start
-<div class="right-social">
-  <ul class="social-links">
-  LinkedIn 
-    <li>
-      <a href="url to LI profile" target="_blank">
-        <img src="path to icon" alt=" --LinkedIn-- icon." />
-      </a>
-    </li>
-
-  GithUb  
-    <li class="social-link">
-      <a href="url to github profile" targt="_blank">
-        <img src="path to icon" alt="github icon." />
-      </a>
-    </li>
-
-  Instagram   
-    <li class="social=link" targt="_blank">
-      <a href="url to instagram">
-        <img src="path to insta.jpg" alt="Instagram icon" />
-    </li>
-  </ul>
-</div>
-SOCIAL Ends   -->
-
-
-  <!--  PLACEHOLDER CODE FOR FURTURE DEVELOPEMNT ENDS-->
 
 
   <!--   ABOUT Starts   -->
-
-  <section id="about" class="about-me secondary-border" target="_blank">
+  <section id="about" class="about-me right-align" target="_blank">
     <div class="flex-row">
-      <h3 class="section-title">And little bit about me...</h3>
+      <h2 class="section-title">A little bit about me...</h2>
+      <img src="assets/images/mD2Art.jpeg" alt="Mellie Dee in her studio"/>
     </div>
 
     <div class="about-card">
       <article class="about-text">
+        <p>A long, long time ago in a galaxy far away....I developed flavors in labs, donned hairnets in manufacturing plants, purchased value-added items for a produce company, but mostly styled food for cookbooks, packaging, and websites. With over twenty years of work experience, I confidently say I understand the importance of collaboration, accountability, and adaptability, and I never stop learning. Working with marketing folks on the  photoset sparked my interest in the digital world. So, I jumped into the world of development and haven't looked back. 
+        </p><br/>
 
-        <p>A long long time ago in a galaxy far away....I developed flavors in labs, donned hairnets in manufacturing
-          plants, and styled food for cameras. With over twenty years of work experience, I confidently say I understand
-          the importance of collaboration, accountability, and adapting to change. To me, there is always more to learn
-          in life – hence the "Intermediates" on the skills section of the application!
+        <p>
+        In my spare time, I dance up a storm with my dogs or bake up a storm perfecting the best, gooey, rich vegan chocolate cake.
         </p>
       </article>
     </div>
@@ -222,20 +204,24 @@ SOCIAL Ends   -->
   <!--   ABOUT Ends   -->
 
 
-  <section id="contact" class="reach-me primary-border">
-
-    <!--   My CONTACT Starts-->
 
 
-    <div class="four-kid-box">
+
+
+
+
+     <!--   REACH ME  Starts   -->
+    <section id="what-i-do" class="reach-me left-align"  target="_blank">
       <div class="flex-row">
-        <h3>How to reach</h3>
+        <h2 class="section-title-left">How to Reach Me</h2>
+       <!-- <img src="./assets/images/logoMellieDeeDesigns-500x80.png" alt="written logo for Mellie Dee Designs" class="logo"> -->
       </div>
-      <img src="./assets/images/logoMellieDeeDesigns-500x80.png" alt="written logo for Mellie Dee Designs" class="logo">
 
-      <p>Love to speak with you about next steps to bring your designs to life, or if you prefer, about what silly thing
-        your pet did today. In anycase, feel free to reach out. I'm here!
-      </p>
+      <div class="reach-me-text">
+        <h3>Let's Chat!</h3>
+
+        <p>Love to speak with you about next steps to bring your designs to life, or if you prefer, simply to speak about what silly thing your pet did today. In anycase, feel free to reach out. I'm here!
+        </p>
 
       <address>
         Sacramento, Ca 95835<br />
@@ -252,16 +238,19 @@ SOCIAL Ends   -->
 
         <button type="submit">Send</button>
       </form>
-    </div>
+    </div>  
   </section>
 
 
-  <!-- FOOTER Starts   -->
-  <footer>
-    <h4>another MD<sup>2</sup>design</h4>
-    <p>&copy; 2021 Melanie Dubberley & Mellie Dee Designs</p>
-  </footer>
-  <!--   FOOTER Ends   -->
-</body>
 
+
+    <!-- FOOTER Starts   -->
+    <footer>
+      <h4>another MD<sup>2</sup>design</h4>
+     <p>&copy; 2021 Melanie Dubberley & Mellie Dee Designs</p>
+    </footer>
+    <!--   FOOTER Ends   -->
+
+
+  </body>
 </html>
