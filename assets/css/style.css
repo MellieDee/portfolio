@@ -113,15 +113,16 @@ footer  {
   display: inline-block;
   margin: 5px;
 }
-/* .flex-row {
+.flex-row {
   display:flex;
-} */
+}
+
  .left-align {
   border-left: 6px solid rgba(216, 99, 31, 1.0);
   margin: 35px 22px;
-  padding: 35px 30px 50px 0;
+  padding: 35px 30px 50px 30px;
   max-width: 75%;
-}
+} 
 
 .right-align {
   border-right: 6px solid rgba(150, 7, 88, 1.0);
@@ -139,7 +140,7 @@ footer  {
   text-align: right;
 }
 .about-me img {
-  width: 100%;
+  width: 60%;
 }
 
 .feature-project h2 {
@@ -170,11 +171,59 @@ footer  {
     padding: 0;
 }  
 
-.feature p span, .project-description span {
+.feature p span, .card-info span {
     font-weight: bold;
 }
 
-.more-web {
+.web-cardsA {
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 4em;
+}
+
+.web-cardsA h2 {
+  text-align: left;
+  padding: 30px;
+  font-size: 38px;
+}
+.web-cardsB {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.web-card {
+  margin: 1em;
+  padding: 0;
+  flex: 1 0 5em;
+  border: 1px solid #2a2fa8;
+  border-radius: 5%;
+}
+
+.web-card img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.card-info {
+  text-align: left;
+  padding: 0 0 2em 2em;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.card-info h3 {
+  text-align: left;
+  font-size: 28px;
+}
+
+
+
+/* .more-web {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -183,15 +232,15 @@ footer  {
 
 }
 .more-web img {
-  width: 100%;
-}
+  width: 80%;
+} */
 
-  .reach-me address {
-    font-style: normal;
-    padding: 25px 0;
-  }
+.reach-me address {
+  font-style: normal;
+  padding: 25px 0;
+ }
 
-  .reach-me address a {
+.reach-me address a {
     color: var(--primary-color);
   }
 
@@ -296,11 +345,11 @@ header nav ul li a {
   width: 100%;
 }
 
-.web-card {
+/* .web-card {
   padding: 20px  20px 35px 20px;
   margin: 20px;
   background-color: #a7d2fa;
-}
+} */
 
 .ppp, .reach-me {
   padding: 35px 0 20px 20px;
@@ -310,5 +359,4 @@ header nav ul li a {
 .ppp h3, .reach-me h3 {
   padding: 0 0 10px 0;
 }
-
  }
