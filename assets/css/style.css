@@ -19,21 +19,6 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header {
-  background-color: #a7d2fa ;
-  display: flex;
-  justify-content: space-between;
-  text-align: right;
-  flex-wrap: wrap;
-  /* padding: 10px 12px; */
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  padding: 20px 30px;
-  z-index: 999;
-}
-
 .md2-logo-round img {
   margin: 0;
   padding: 0;
@@ -50,6 +35,22 @@ header {
    max-width: 100%;
    height: auto;
  }
+
+ header {
+  background-color: #a7d2fa ;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  flex-wrap: wrap;
+  /* padding: 10px 12px; */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 20px 30px;
+  z-index: 999;
+}
+
 
  nav {
    padding: 0;
@@ -93,6 +94,7 @@ footer  {
   background-color: #2a2fa8;
   color: #a7d2fa;
   width: 100%;
+
   }
 
   .hero h1 {
@@ -113,14 +115,14 @@ footer  {
   display: inline-block;
   margin: 5px;
 }
-.flex-row {
+/* .flex-row {
   display:flex;
-}
+} */
 
  .left-align {
   border-left: 6px solid rgba(216, 99, 31, 1.0);
   margin: 35px 22px;
-  padding: 35px 30px 50px 30px;
+  padding: 35px 30px 55px 30px;
   max-width: 75%;
 } 
 
@@ -141,26 +143,36 @@ footer  {
 }
 .about-me img {
   width: 60%;
+  border-radius: 5px;
+  max-height: 10em;
+  max-width: 9em;
 }
 
-.feature-project h2 {
+.feature-project h2, .about-me h2, .reachme {
   text-align: right;
+  font-size: 1.5em;
+  padding: 0.5em 0;
+
 }
+
 .feature-cards h3 {
   /* display: flex;
   justify-content: flex-end;
   flex-wrap: wrap; */
   /* padding: 0 0 0 105px; */
   text-align: right;
+  font-size: 1.17em;
   order: 1;
-  flex-basis: 10rem;
+  padding: 0.5em 0;
+  /* flex-basis: 10rem; */
 }
 
 .feature img {
     width: 100%;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     order: 2;
-    flex-basis: 30rem;
+    /* flex-basis: 30rem; */
+    border-radius: 10px;
 }
 
 .feature p, .about-me p {
@@ -176,7 +188,7 @@ footer  {
 }
 
 .web-cardsA {
-  max-width: 80%;
+  max-width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -185,11 +197,12 @@ footer  {
 
 .web-cardsA h2 {
   text-align: left;
-  padding: 30px;
-  font-size: 38px;
+  padding: 0 0 0 0.5em;
+  font-size: 1.5em;
 }
+
 .web-cardsB {
-  width: 100%;
+  width: 93%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -197,16 +210,16 @@ footer  {
 }
 
 .web-card {
-  margin: 1em;
+  margin: 1em 0;
   padding: 0;
   flex: 1 0 5em;
   border: 1px solid #2a2fa8;
-  border-radius: 5%;
+  border-radius: 5px;
 }
 
 .web-card img {
   width: 100%;
-  border-radius: 5%;
+  border-radius: 5px;
 }
 
 .card-info {
@@ -215,33 +228,29 @@ footer  {
   margin: 0;
   line-height: 1.2;
 }
+ .card-info {
+  padding: 0 0.5em;
+  margin: 0.25em;
+  line-height: 1.2;
+} 
 
-.card-info h3 {
-  text-align: left;
-  font-size: 28px;
+
+.card-info h3, .ppp h3 {
+  font-size: 1.17em;
+  /* padding: 0 0.5em;*/
+  margin: 0.5em 0; 
+}
 }
 
-
-
-/* .more-web {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  max-width: 80%;
-  margin: 20px;
-
-}
-.more-web img {
-  width: 80%;
-} */
 
 .reach-me address {
   font-style: normal;
   padding: 25px 0;
- }
+  color: var(--tertiary-coly-color);
+ } 
 
-.reach-me address a {
-    color: var(--primary-color);
+ .reach-me address a {
+
   }
 
   .reach-me label {
@@ -254,17 +263,20 @@ footer  {
     margin: 5px 0;
     padding: 5px 0;
     width: 100%;
+    border-radius: 5px;
   }
   .reach-me form textarea {
     width: 100%;
     padding: 5px 20px 20px 0;
     min-height: 50px;
+    border-radius: 5px;
  
   }
   .reach-me form button {
     margin: 20px auto;
     width: 100%;
     min-height: 30px;
+    border-radius: 5px;
   }
 
 
@@ -337,26 +349,32 @@ header nav ul li a {
  }
 
 
- .web-section-title {
+ /* .web-section-title {
   text-align: left;
   font-size: 24px;
   padding: 0 0 10px 20px;
   margin: 0;
   width: 100%;
-}
+} */
 
-/* .web-card {
+ /* .web-card {
   padding: 20px  20px 35px 20px;
   margin: 20px;
   background-color: #a7d2fa;
-} */
+}  */
 
-.ppp, .reach-me {
+.ppp, .reach-me, .web-cardsA {
   padding: 35px 0 20px 20px;
   width: 100%;
 }
 
-.ppp h3, .reach-me h3 {
+.ppp h3, .reach-me h3, .web-cardsA h3 {
   padding: 0 0 10px 0;
+}
+
+.card-info {
+  padding: 0 0.5em;
+  margin: 0.25em;
+} 
 }
  }
