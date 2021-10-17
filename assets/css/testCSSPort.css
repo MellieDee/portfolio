@@ -18,7 +18,6 @@ body {
   background: linear-gradient( #a7d2fa, #a7d2fa, #1c468a) fixed;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-}
 
 .md2-logo-round img {
   margin: 0;
@@ -84,3 +83,18 @@ footer  {
  color: var(--primary-color);
  background-color: var(--tertiary-color);
 }
+
+/* @media TV and (min-width: 1200px){} */
+/* 
+@media  and (max-width: 960px) {
+  
+}
+
+@media  and (max-width: 768px) {
+  
+}
+
+
+@media  and (max-width: 575px) {
+  
+} */
