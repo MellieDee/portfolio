@@ -13,3 +13,8 @@ https://www.w3.org/2005/10/howto-favicon
 
 https://favicon.io/favicon-converter/
 
+https://www.iconfinder.com/icons/5282542/linkedin_network_social_network_linkedin_logo_icon
+
+https://www.youtube.com/watch?v=YpNRnYAygDs&list=PL4cUxeGkcC9hH1tAjyUPZPjbj-7s200a4&index=2
+
+https://brand.linkedin.com/downloads
