@@ -4,11 +4,14 @@
   --secondary-color: rgba(42, 46, 168, 1.0); /* 2a2fa8 */
   --tertiary-color: rgba(3, 34, 84, 1.0);  /* #032254 */
   --accent-color1: rgba(216, 99, 31, 1.0); /* #d8631f */
+  --accent-color1a: rgba(216, 99, 31, 0.8); /* #d8631f */
   --accent-color2: rgba(150, 7, 88, 1.0); /* #960758 */
-  --accent-c0lor3: rgba(150, 7, 88, 0.4s); /* #960758 *
+  --accent-color3: rgba(3, 34, 84, 0.3);  /* #032254 */
+  --accent-color2a: rgba(150, 7, 88, 0.3);
+  
 }
 
-/*   RESET DEFSAULT BROWSER STYLES   */
+/*   RESET DEFAULT BROWSER STYLES   */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,53 +19,92 @@
   text-decoration: none;
 }
 
-li {
-  list-style-type: none;
-}
 
-
+/*   UNIVERAL UTILITY STLES  */
 body {
-  color: #2a2fa8;
+  color: var(--secondary-color);
   background: linear-gradient( #a7d2fa, #a7d2fa, #1c468a) fixed;
   font-family: Georgia, 'Times New Roman', Times, serif;
   overflow-x: hidden;
 }
+
+li {
+  list-style-type: none;
+}
+
 button {
-  background-color:  var( --tertiary-color);
-  color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
+  background-color: var( --accent-color3);
+  color: var(--primary-color);
+  border: 2px solid var(--tertiary-color);
   padding: 5px 15px;
   border-radius: 10px;
-  width: 50%;
+  width: 80%;
+  font-size: 14px;
+  box-shadow: 0 0 10px var( --accent-color2a);
+}
+
+button:hover {
+  background: var(--accent-color1);
 }
 
  input, textarea {
-  background-color:  var( --accent-color3);
-  color: var(--secondary-color);
+  background-color:  var( --primary-color);
+  color: var(--accent-color1);
   border: 1px solid var(--tertiary-color);
   padding: 5px 15px;
   border-radius: 10px;
-  width: 50%;
+  width: 80%;
 }
 
-
-.label-text {
-  color: var(--secondary-color);
-
+.dot  {
+  height: 0.4em;
+  width: 0.4em;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
 }
+/* Font Styles */
+h1 {
+  font-size: 1.6em;
+  color: var(--primary-color);
+  
+}
+
+h2 {
+color: var(--tertiary-color);
+font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+p, a, li {
+    color: var(--secondary-color) rgba(42, 46, 168, 1.0);
+  } 
+  
 /*  STANDARD IS MOBILE SIZE   */
 
 
 
 /*  MQ FOR SMALL TABLETS & HUBS    */
-@media screen and (max-width: 575px) {}
-
-
+@media screen and (min-width: 575px) {}
 
 /* MQ FOR LARGER TABLETS & LAPTOPS     */
-@media screen and (max-width: 960px){}
-
-
+@media screen and (min-width: 960px){
+body {
+  font-size: 18px;
+}
+}
 
 /*  MQ FOR DESKTOP COMPUTER SCREENS    */
-@media screen and (max-width: 1200px){}
+@media screen and (min-width: 1200px){
+  body {
+    font-size: 22px;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+}
