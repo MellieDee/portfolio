@@ -18,3 +18,7 @@ https://www.iconfinder.com/icons/5282542/linkedin_network_social_network_linkedi
 https://www.youtube.com/watch?v=YpNRnYAygDs&list=PL4cUxeGkcC9hH1tAjyUPZPjbj-7s200a4&index=2
 
 https://brand.linkedin.com/downloads
+
+grid vs flexbox
+
+https://www.youtube.com/watch?v=k32voqQhODc

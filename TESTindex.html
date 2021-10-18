@@ -20,16 +20,18 @@
 
 <body>
     <!--HEADER & NAV Start   -->
+
     <header>
       <div class="md2-logo-round">
       <img src="./assets/images/logoMD2-500-trans.png" alt="M D Squared Logo" class="logo" />
-    </div>
+      </div>
 
-    <div class="md2-logo-name">
-      <div>
-      <img src="./assets/images/logoMellieDeeDesigns-500x80.png" alt="written logo for Mellie Dee Designs" class="logo">
-    </div>
+      <div class="md2-logo-name">
+       <img  src="./assets/images/logoMellieDeeDesigns-500x80.png" alt="written logo for Mellie Dee Designs" class="logo">
+      </div>
 
+
+   <div>
     <nav class="nav-grid"> 
       <ul>
         <li>
@@ -53,12 +55,14 @@
       </ul>
     </nav>
     </div>
+  </div>
+
     </header>
     <!--   HEADER & NAV End-->
 
 
   <!-- ----------------- HERO  Starts -------------- -->
-<section>
+<section class="hero">
   <h1>I save the world. <br/>
     One website at a time.
   </h1>
@@ -99,7 +103,7 @@
 <section id="work" class="cl-work">
   <h2>Other Fun Projects</h2>
 
-  <div class="work-grid">
+  <div class="work grid">
       <a href="https://melliedee.github.io/horiSEOn/" target="_blank">
         <img src="assets/images/1-indexHoriseon.jpg" alt="Horiseon homepage">
         <h3>Horiseon</h3>
@@ -159,6 +163,11 @@
       </ul>
     </div>  
 
+    <div>
+      <h2 class="section-title">A little bit about me...</h2>
+      <img src="assets/images/mD2BioColor.jpeg" alt="Mellie Dee in her studio"/>
+    </div>
+
     <!--   about me text   -->
     <p>Passionate Front-End Web Developer with background in creativity and science. As a freelance food stylist I worked for eleven years on the widely popular “Kosher By Design” cookbook series. The process involved developing,  testing, revising, finalizing and ultimately styling the recipes; experience which directly translates to coding. Armed with a certificate in full-stack development from University California at Davis, I bring skills in JavaScript, CSS and responsive web design. Versed in GitHub, I maintain the big picture while working independently or on a team. I believe honest communication between and having fun with team members is the best way to get the job done. If one succeeds; we all succeed.
     </p>
@@ -169,23 +178,40 @@
 
 
 <!-- ----------------- CONTACT Starts -------------- -->
-<section id="contact" class="cl-contact">
-  <h2>How to Reach Me</h2>
+<section id="contact" class="cl-contact-wrapper">
+  <div class="contact-text">
+    <h2>How to Reach Me</h2>
+     <p class="cta">Love to speak with you about next steps to bring your designs to life, or if you prefer, simply to speak about what silly thing your pet did today. In anycase, feel free to reach out. I'm here!
+     </p>
+  </div>
 
-  <p class="cta">Love to speak with you about next steps to bring your designs to life, or if you prefer, simply to speak about what silly thing your pet did today. In anycase, feel free to reach out. I'm here!
-  </p>
+  <div class="contact-addy">
+    <address>
+      Sacramento, Ca 95835<br />
+      916-596-0496<br />
+      <a href="mailto:ReachMe@MelanlieDubberley.com">ReachMe@MelanieDubberley.com</a>
+    </address>
+  </div>
 
   <form>
-    <label for="contact-name" class=";label-text">Your Name</label>
-    <input type="text" id="contact-name" placeholder="Your Name" />
+    <div class="form-row"
+      <label for="contact-name" class=";label-text">Your Name</label>
+       <input type="text" id="contact-name" placeholder="Your Name" />
+    </div>
 
-    <label for="contact-email">Your eMail</label>
-    <input type="email" id="contact-email" placeholder="Your eMail address"/>
+    <div class="form-row"
+      <label for="contact-email" class="label-text">Your eMail</label>
+      <input type="email" id="contact-email" placeholder="Your eMail address"/>
+    </div>
 
-    <label for="contact-message">Message</label>
-    <textarea id="contact-message" placeholder="Message"></textarea>
+    <div class="form-row">
+      <label for="contact-message">Message</label>
+     <textarea id="contact-message" placeholder="Message"></textarea>
+    </div>
 
+  <div class="form-row">
     <button type="submit">Send a byte...</button>
+  </div>
   </form>
 </section>
 <!-- ----------------- CONTACT  Ends -------------- -->

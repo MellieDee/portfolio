@@ -1,16 +1,20 @@
 :root {
   /*--primary-color: #a7d2fa;*/
   --primary-color: rgba(167, 210, 250, 1.0); /* #a7d2fa8 */
+
   --secondary-color: rgba(42, 46, 168, 1.0); /* 2a2fa8 */
   --tertiary-color: rgba(3, 34, 84, 1.0);  /* #032254 */
   --accent-color1: rgba(216, 99, 31, 1.0); /* #d8631f */
-  --accent-color1a: rgba(216, 99, 31, 0.8); /* #d8631f */
+  --accent-color1a: rgba(216, 99, 31, 0.8); 
   --accent-color2: rgba(150, 7, 88, 1.0); /* #960758 */
-  --accent-color3: rgba(3, 34, 84, 0.3);  /* #032254 */
   --accent-color2a: rgba(150, 7, 88, 0.3);
-  
+  --accent-color3: rgba(3, 34, 84, 0.3);  /* #032254 */
+  --accent-color4: rgba(91, 120, 166, 1.0); /* #5b78a6 */
 }
-
+/* 
+html {
+  overflow-x: hidden;
+} */
 /*   RESET DEFAULT BROWSER STYLES   */
 * {
   box-sizing: border-box;
@@ -23,7 +27,7 @@
 /*   UNIVERAL UTILITY STLES  */
 body {
   color: var(--secondary-color);
-  background: linear-gradient( #a7d2fa, #a7d2fa, #1c468a) fixed;
+  background: linear-gradient( #a7d2fa, #a7d2fa, #1c468a, #032254) fixed;
   font-family: Georgia, 'Times New Roman', Times, serif;
   overflow-x: hidden;
 }
@@ -64,37 +68,184 @@ button:hover {
   display: inline-block;
   margin: 5px;
 }
-/* Font Styles */
-h1 {
+
+
+
+/*    FONT STYLES start    */
+.hero h1 {
   font-size: 1.6em;
   color: var(--primary-color);
-  
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  width: 100%;
+
 }
 
 h2 {
-color: var(--tertiary-color);
-font-size: 1.3em;
+color: var(--teriary-color);
+font-size: 1.4em;
+padding: 0.3em 0;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1.1em;
+  padding: 0.3 0;
 }
 
 p, a, li {
     color: var(--secondary-color) rgba(42, 46, 168, 1.0);
   } 
   
-/*  STANDARD IS MOBILE SIZE   */
+.work a p span {
+  font-weight: bold;
+}
 
+.contact-addy address a, .contact-addy address {
+  text-decoration: none;
+  color: var(--primary-color);
+
+}
+
+.cl-contact-wrapper form email {
+  font-size: 0.8em;
+}
+
+
+footer, .cl-contact-wrapper p, .cl-contact-wrapper h2, .cl-contact-wrapper label {
+    color: var(--primary-color);
+  }
+
+/*    FONT STYLES end   */
+
+
+
+
+/*   IMAGE SIZES   Start   */
+ 
+ .cl-fp a img, .cl-work a img, .cl-about img {
+  border-radius: 10px;
+}
+ .cl-fp a img {
+   width: 100%;
+ }
+ 
+ .cl-work a img {
+   width: 100%;
+ }
+
+ .cl-about img {
+   width: 40%
+ }
+
+ /*   IMAGE SIZES   End   */
+
+
+
+/* ------- STANDARD IS MOBILE SIZE -----  */
+
+header {
+  background-color: #a7d2fa ;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  flex-wrap: wrap;
+  /* padding: 10px 12px; */
+
+  width: 100%;
+  padding: 10px 20px;
+  z-index: 999;
+}
+
+/* 
+.md2-logo-round, .md2-log-name {
+  padding: 0;
+  margin: 0;
+  width: 30%;
+} */
+
+/* .md2-logo-round {
+  width: calc(50%-24px);
+}
+
+.md2-logo-name {
+  width: calc(50%-24px);
+} */
+
+nav {
+  padding: 0;
+}
+header nav ul {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ /* align-items: center; */
+ list-style: none;
+ margin: 0;
+ padding-top: 10px; 
+}
+
+header nav ul li {
+padding: 0 0 0 20px;
+}
+
+header nav ul li a {
+ font-size: 20px;
+ text-shadow: 0 0 10px rgba(150, 7, 88, 0.3);
+ text-decoration: none;
+ color:  #2a2fa8;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  width: 100%;
+
+}
+
+
+
+
+
+/*     CONTACT Starts   */
+
+
+.cl-contact-wrapper, .cl-wid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1em;
+  margin: 1em;
+  border-left: 4px solid var(--accent-color1);
+}
+
+ .contact-text, .contact-addy,  .cl-contact-wrapper form, .ppp-text {
+  padding: 1em 0;
+  flex: 1;
+} 
+
+
+
+.form-row {
+  color: var(--primary-color);
+  padding: 0;
+}
+/*
 
 
 /*  MQ FOR SMALL TABLETS & HUBS    */
-@media screen and (min-width: 575px) {}
+@media screen and (min-width: 575px) {
+
+}
 
 /* MQ FOR LARGER TABLETS & LAPTOPS     */
 @media screen and (min-width: 960px){
 body {
   font-size: 18px;
+}
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 }
 
@@ -107,4 +258,47 @@ body {
   h1 {
     font-size: 4em;
   }
+
+
+}
+
+
+/*  GRID TEST */
+
+.work {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/* .work a {
+  text-align: center;
+  
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.md2-logo-round img {
+  margin: 0;
+  padding: 0;
+  size: 20px;
+  height: 90px;
+  width: 90px;
+ } 
+
+ .md2-logo-name img {
+  padding-bottom: 30px;
+  max-width: 90%;
+  height: auto;
 }
