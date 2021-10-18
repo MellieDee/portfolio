@@ -22,3 +22,5 @@ https://brand.linkedin.com/downloads
 grid vs flexbox
 
 https://www.youtube.com/watch?v=k32voqQhODc
+
+  --accent-color2: rgba(150, 7, 88, 1.0); /* #960758 */
