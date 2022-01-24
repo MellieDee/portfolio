@@ -40,7 +40,7 @@ button,
   padding: 5px 15px;
   border-radius: 10px;
   font-size: 14px;
-  box-shadow: 0 0 10px var(--accent-color2a);
+  /* box-shadow: 0 0 10px var(--accent-color2a); */
 }
 
 button:hover,
@@ -148,7 +148,7 @@ li {
 .cl-work-wrapper a img {
   width: 100%;
   margin: 1em;
-  box-shadow: 10px 10px 10px var(--accent-color1a);
+  box-shadow: 10px 10px var(--accent-color3);
 }
 
 .cl-about img {
@@ -249,8 +249,9 @@ header nav ul li a {
 }
 
 .work a {
-  background-color: #7d6c65;
-  border: 1px solid var(--primary-color);
+  /* background-color: #7d6c65; */
+  background-color: var(--primary-color);
+  /* border: 1px solid var(--primary-color); */
   border-radius: 10px;
 }
 /*   WORK Ends   */
